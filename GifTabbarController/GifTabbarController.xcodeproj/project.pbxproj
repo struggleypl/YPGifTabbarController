@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		174A6378EE0F52514861EBC0 /* libPods-GifTabbarController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D74F270F993E86797BFC87F4 /* libPods-GifTabbarController.a */; };
+		D590676C229E7C4400F813C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D590676B229E7C4400F813C8 /* AppDelegate.m */; };
+		D590676F229E7C4400F813C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D590676E229E7C4400F813C8 /* ViewController.m */; };
+		D5906772229E7C4400F813C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5906770229E7C4400F813C8 /* Main.storyboard */; };
+		D5906774229E7C4900F813C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5906773229E7C4900F813C8 /* Assets.xcassets */; };
+		D5906777229E7C4900F813C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5906775229E7C4900F813C8 /* LaunchScreen.storyboard */; };
+		D590677A229E7C4900F813C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5906779229E7C4900F813C8 /* main.m */; };
+		D5906784229E7C4900F813C8 /* GifTabbarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5906783229E7C4900F813C8 /* GifTabbarControllerTests.m */; };
+		D590678F229E7C4A00F813C8 /* GifTabbarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D590678E229E7C4A00F813C8 /* GifTabbarControllerUITests.m */; };
+		D59067B7229E7C5E00F813C8 /* GifTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067A1229E7C5E00F813C8 /* GifTabBarController.m */; };
+		D59067B8229E7C5E00F813C8 /* GifTabTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067A3229E7C5E00F813C8 /* GifTabTapGestureRecognizer.m */; };
+		D59067B9229E7C5E00F813C8 /* GifTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067A5229E7C5E00F813C8 /* GifTabBar.m */; };
+		D59067BA229E7C5E00F813C8 /* UITabBar+FrameOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067A6229E7C5E00F813C8 /* UITabBar+FrameOffset.m */; };
+		D59067BB229E7C5E00F813C8 /* GifTabImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067A7229E7C5E00F813C8 /* GifTabImageView.m */; };
+		D59067BC229E7C5E00F813C8 /* GifTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067A9229E7C5E00F813C8 /* GifTabBarItem.m */; };
+		D59067BD229E7C5E00F813C8 /* GifTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067AB229E7C5E00F813C8 /* GifTabBarView.m */; };
+		D59067BE229E7C5E00F813C8 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067AE229E7C5E00F813C8 /* FLAnimatedImage.m */; };
+		D59067BF229E7C5E00F813C8 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067AF229E7C5E00F813C8 /* FLAnimatedImageView.m */; };
+		D59067C0229E7C5E00F813C8 /* btn_fx.gif in Resources */ = {isa = PBXBuildFile; fileRef = D59067B3229E7C5E00F813C8 /* btn_fx.gif */; };
+		D59067C1229E7C5E00F813C8 /* btn_mine.gif in Resources */ = {isa = PBXBuildFile; fileRef = D59067B4229E7C5E00F813C8 /* btn_mine.gif */; };
+		D59067C2229E7C5E00F813C8 /* btn_transfer.gif in Resources */ = {isa = PBXBuildFile; fileRef = D59067B5229E7C5E00F813C8 /* btn_transfer.gif */; };
+		D59067C3229E7C5E00F813C8 /* btn_overview.gif in Resources */ = {isa = PBXBuildFile; fileRef = D59067B6229E7C5E00F813C8 /* btn_overview.gif */; };
+		D59067C6229E7CEC00F813C8 /* WLTRootManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067C4229E7CEC00F813C8 /* WLTRootManager.m */; };
+		D59067C9229E7D0400F813C8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067C8229E7D0400F813C8 /* FirstViewController.m */; };
+		D59067CC229E7D3300F813C8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067CB229E7D3300F813C8 /* SecondViewController.m */; };
+		D59067CF229E7D3E00F813C8 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067CE229E7D3E00F813C8 /* ThirdViewController.m */; };
+		D59067D2229E7E7100F813C8 /* WLTNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D59067D0229E7E7100F813C8 /* WLTNavigationBar.m */; };
+		D59067D6229E812500F813C8 /* tabbar_overview_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067D4229E812500F813C8 /* tabbar_overview_normal@2x.png */; };
+		D59067D7229E812500F813C8 /* tabbar_overview_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067D5229E812500F813C8 /* tabbar_overview_normal@3x.png */; };
+		D59067DA229E813600F813C8 /* tabbar_overview_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067D8229E813600F813C8 /* tabbar_overview_select@3x.png */; };
+		D59067DB229E813600F813C8 /* tabbar_overview_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067D9229E813600F813C8 /* tabbar_overview_select@2x.png */; };
+		D59067DE229E814200F813C8 /* tabbar_transaction_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067DC229E814200F813C8 /* tabbar_transaction_normal@2x.png */; };
+		D59067DF229E814200F813C8 /* tabbar_transaction_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067DD229E814200F813C8 /* tabbar_transaction_normal@3x.png */; };
+		D59067E2229E814D00F813C8 /* tabbar_transaction_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067E0229E814D00F813C8 /* tabbar_transaction_select@2x.png */; };
+		D59067E3229E814D00F813C8 /* tabbar_transaction_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067E1229E814D00F813C8 /* tabbar_transaction_select@3x.png */; };
+		D59067E6229E815B00F813C8 /* tabbar_mine_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067E4229E815A00F813C8 /* tabbar_mine_select@3x.png */; };
+		D59067E7229E815B00F813C8 /* tabbar_mine_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067E5229E815B00F813C8 /* tabbar_mine_select@2x.png */; };
+		D59067EA229E816D00F813C8 /* tabbar_mine_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067E8229E816C00F813C8 /* tabbar_mine_normal@3x.png */; };
+		D59067EB229E816D00F813C8 /* tabbar_mine_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067E9229E816D00F813C8 /* tabbar_mine_normal@2x.png */; };
+		D59067EE229E824300F813C8 /* tabbar_find_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067EC229E824300F813C8 /* tabbar_find_normal@3x.png */; };
+		D59067EF229E824300F813C8 /* tabbar_find_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067ED229E824300F813C8 /* tabbar_find_normal@2x.png */; };
+		D59067F2229E824D00F813C8 /* tabbar_find_select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067F0229E824D00F813C8 /* tabbar_find_select@2x.png */; };
+		D59067F3229E824D00F813C8 /* tabbar_find_select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D59067F1229E824D00F813C8 /* tabbar_find_select@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5906780229E7C4900F813C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D590675F229E7C4400F813C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5906766229E7C4400F813C8;
+			remoteInfo = GifTabbarController;
+		};
+		D590678B229E7C4A00F813C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D590675F229E7C4400F813C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5906766229E7C4400F813C8;
+			remoteInfo = GifTabbarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A708086209E4E80BBAA0EC2 /* Pods-GifTabbarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifTabbarController.debug.xcconfig"; path = "Target Support Files/Pods-GifTabbarController/Pods-GifTabbarController.debug.xcconfig"; sourceTree = "<group>"; };
+		D5906767229E7C4400F813C8 /* GifTabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifTabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D590676A229E7C4400F813C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D590676B229E7C4400F813C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D590676D229E7C4400F813C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D590676E229E7C4400F813C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5906771229E7C4400F813C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5906773229E7C4900F813C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5906776229E7C4900F813C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5906778229E7C4900F813C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5906779229E7C4900F813C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D590677F229E7C4900F813C8 /* GifTabbarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifTabbarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5906783229E7C4900F813C8 /* GifTabbarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifTabbarControllerTests.m; sourceTree = "<group>"; };
+		D5906785229E7C4900F813C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D590678A229E7C4A00F813C8 /* GifTabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GifTabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D590678E229E7C4A00F813C8 /* GifTabbarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GifTabbarControllerUITests.m; sourceTree = "<group>"; };
+		D5906790229E7C4A00F813C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D590679E229E7C5E00F813C8 /* UITabBar+FrameOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+FrameOffset.h"; sourceTree = "<group>"; };
+		D590679F229E7C5E00F813C8 /* GifTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifTabBar.h; sourceTree = "<group>"; };
+		D59067A0229E7C5E00F813C8 /* GifTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifTabBarItem.h; sourceTree = "<group>"; };
+		D59067A1229E7C5E00F813C8 /* GifTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifTabBarController.m; sourceTree = "<group>"; };
+		D59067A2229E7C5E00F813C8 /* GifTabImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifTabImageView.h; sourceTree = "<group>"; };
+		D59067A3229E7C5E00F813C8 /* GifTabTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifTabTapGestureRecognizer.m; sourceTree = "<group>"; };
+		D59067A4229E7C5E00F813C8 /* GifTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifTabBarView.h; sourceTree = "<group>"; };
+		D59067A5229E7C5E00F813C8 /* GifTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifTabBar.m; sourceTree = "<group>"; };
+		D59067A6229E7C5E00F813C8 /* UITabBar+FrameOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+FrameOffset.m"; sourceTree = "<group>"; };
+		D59067A7229E7C5E00F813C8 /* GifTabImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifTabImageView.m; sourceTree = "<group>"; };
+		D59067A8229E7C5E00F813C8 /* GifTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifTabBarController.h; sourceTree = "<group>"; };
+		D59067A9229E7C5E00F813C8 /* GifTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifTabBarItem.m; sourceTree = "<group>"; };
+		D59067AA229E7C5E00F813C8 /* GifTabBarHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifTabBarHeader.h; sourceTree = "<group>"; };
+		D59067AB229E7C5E00F813C8 /* GifTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GifTabBarView.m; sourceTree = "<group>"; };
+		D59067AC229E7C5E00F813C8 /* GifTabTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GifTabTapGestureRecognizer.h; sourceTree = "<group>"; };
+		D59067AE229E7C5E00F813C8 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		D59067AF229E7C5E00F813C8 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		D59067B0229E7C5E00F813C8 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		D59067B1229E7C5E00F813C8 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		D59067B3229E7C5E00F813C8 /* btn_fx.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_fx.gif; sourceTree = "<group>"; };
+		D59067B4229E7C5E00F813C8 /* btn_mine.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_mine.gif; sourceTree = "<group>"; };
+		D59067B5229E7C5E00F813C8 /* btn_transfer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_transfer.gif; sourceTree = "<group>"; };
+		D59067B6229E7C5E00F813C8 /* btn_overview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = btn_overview.gif; sourceTree = "<group>"; };
+		D59067C4229E7CEC00F813C8 /* WLTRootManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTRootManager.m; sourceTree = "<group>"; };
+		D59067C5229E7CEC00F813C8 /* WLTRootManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTRootManager.h; sourceTree = "<group>"; };
+		D59067C7229E7D0400F813C8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D59067C8229E7D0400F813C8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D59067CA229E7D3300F813C8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D59067CB229E7D3300F813C8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D59067CD229E7D3E00F813C8 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		D59067CE229E7D3E00F813C8 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		D59067D0229E7E7100F813C8 /* WLTNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTNavigationBar.m; sourceTree = "<group>"; };
+		D59067D1229E7E7100F813C8 /* WLTNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTNavigationBar.h; sourceTree = "<group>"; };
+		D59067D3229E7F3F00F813C8 /* WLTDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLTDefine.h; sourceTree = "<group>"; };
+		D59067D4229E812500F813C8 /* tabbar_overview_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_overview_normal@2x.png"; sourceTree = "<group>"; };
+		D59067D5229E812500F813C8 /* tabbar_overview_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_overview_normal@3x.png"; sourceTree = "<group>"; };
+		D59067D8229E813600F813C8 /* tabbar_overview_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_overview_select@3x.png"; sourceTree = "<group>"; };
+		D59067D9229E813600F813C8 /* tabbar_overview_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_overview_select@2x.png"; sourceTree = "<group>"; };
+		D59067DC229E814200F813C8 /* tabbar_transaction_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_transaction_normal@2x.png"; sourceTree = "<group>"; };
+		D59067DD229E814200F813C8 /* tabbar_transaction_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_transaction_normal@3x.png"; sourceTree = "<group>"; };
+		D59067E0229E814D00F813C8 /* tabbar_transaction_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_transaction_select@2x.png"; sourceTree = "<group>"; };
+		D59067E1229E814D00F813C8 /* tabbar_transaction_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_transaction_select@3x.png"; sourceTree = "<group>"; };
+		D59067E4229E815A00F813C8 /* tabbar_mine_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_select@3x.png"; sourceTree = "<group>"; };
+		D59067E5229E815B00F813C8 /* tabbar_mine_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_select@2x.png"; sourceTree = "<group>"; };
+		D59067E8229E816C00F813C8 /* tabbar_mine_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_normal@3x.png"; sourceTree = "<group>"; };
+		D59067E9229E816D00F813C8 /* tabbar_mine_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine_normal@2x.png"; sourceTree = "<group>"; };
+		D59067EC229E824300F813C8 /* tabbar_find_normal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_find_normal@3x.png"; sourceTree = "<group>"; };
+		D59067ED229E824300F813C8 /* tabbar_find_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_find_normal@2x.png"; sourceTree = "<group>"; };
+		D59067F0229E824D00F813C8 /* tabbar_find_select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_find_select@2x.png"; sourceTree = "<group>"; };
+		D59067F1229E824D00F813C8 /* tabbar_find_select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_find_select@3x.png"; sourceTree = "<group>"; };
+		D74F270F993E86797BFC87F4 /* libPods-GifTabbarController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GifTabbarController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24A0C750344E1A3FCAEFEA9 /* Pods-GifTabbarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GifTabbarController.release.xcconfig"; path = "Target Support Files/Pods-GifTabbarController/Pods-GifTabbarController.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5906764229E7C4400F813C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				174A6378EE0F52514861EBC0 /* libPods-GifTabbarController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D590677C229E7C4900F813C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5906787229E7C4900F813C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC78BC796454C6B05D73FCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D74F270F993E86797BFC87F4 /* libPods-GifTabbarController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A70A52BC727FCD4C960C6D37 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A708086209E4E80BBAA0EC2 /* Pods-GifTabbarController.debug.xcconfig */,
+				F24A0C750344E1A3FCAEFEA9 /* Pods-GifTabbarController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D590675E229E7C4400F813C8 = {
+			isa = PBXGroup;
+			children = (
+				D5906769229E7C4400F813C8 /* GifTabbarController */,
+				D5906782229E7C4900F813C8 /* GifTabbarControllerTests */,
+				D590678D229E7C4A00F813C8 /* GifTabbarControllerUITests */,
+				D5906768229E7C4400F813C8 /* Products */,
+				A70A52BC727FCD4C960C6D37 /* Pods */,
+				4AC78BC796454C6B05D73FCF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5906768229E7C4400F813C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5906767229E7C4400F813C8 /* GifTabbarController.app */,
+				D590677F229E7C4900F813C8 /* GifTabbarControllerTests.xctest */,
+				D590678A229E7C4A00F813C8 /* GifTabbarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5906769229E7C4400F813C8 /* GifTabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				D590679C229E7C5E00F813C8 /* GifTab */,
+				D590676A229E7C4400F813C8 /* AppDelegate.h */,
+				D590676B229E7C4400F813C8 /* AppDelegate.m */,
+				D59067C5229E7CEC00F813C8 /* WLTRootManager.h */,
+				D59067C4229E7CEC00F813C8 /* WLTRootManager.m */,
+				D59067C7229E7D0400F813C8 /* FirstViewController.h */,
+				D59067C8229E7D0400F813C8 /* FirstViewController.m */,
+				D59067CA229E7D3300F813C8 /* SecondViewController.h */,
+				D59067CB229E7D3300F813C8 /* SecondViewController.m */,
+				D59067CD229E7D3E00F813C8 /* ThirdViewController.h */,
+				D59067CE229E7D3E00F813C8 /* ThirdViewController.m */,
+				D59067D1229E7E7100F813C8 /* WLTNavigationBar.h */,
+				D59067D0229E7E7100F813C8 /* WLTNavigationBar.m */,
+				D59067D3229E7F3F00F813C8 /* WLTDefine.h */,
+				D590676D229E7C4400F813C8 /* ViewController.h */,
+				D590676E229E7C4400F813C8 /* ViewController.m */,
+				D5906770229E7C4400F813C8 /* Main.storyboard */,
+				D5906773229E7C4900F813C8 /* Assets.xcassets */,
+				D5906775229E7C4900F813C8 /* LaunchScreen.storyboard */,
+				D5906778229E7C4900F813C8 /* Info.plist */,
+				D5906779229E7C4900F813C8 /* main.m */,
+			);
+			path = GifTabbarController;
+			sourceTree = "<group>";
+		};
+		D5906782229E7C4900F813C8 /* GifTabbarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5906783229E7C4900F813C8 /* GifTabbarControllerTests.m */,
+				D5906785229E7C4900F813C8 /* Info.plist */,
+			);
+			path = GifTabbarControllerTests;
+			sourceTree = "<group>";
+		};
+		D590678D229E7C4A00F813C8 /* GifTabbarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D590678E229E7C4A00F813C8 /* GifTabbarControllerUITests.m */,
+				D5906790229E7C4A00F813C8 /* Info.plist */,
+			);
+			path = GifTabbarControllerUITests;
+			sourceTree = "<group>";
+		};
+		D590679C229E7C5E00F813C8 /* GifTab */ = {
+			isa = PBXGroup;
+			children = (
+				D590679D229E7C5E00F813C8 /* GifTabBarController */,
+				D59067AD229E7C5E00F813C8 /* FLAnimatedImage */,
+				D59067B2229E7C5E00F813C8 /* GifResource */,
+			);
+			path = GifTab;
+			sourceTree = "<group>";
+		};
+		D590679D229E7C5E00F813C8 /* GifTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				D590679F229E7C5E00F813C8 /* GifTabBar.h */,
+				D59067A5229E7C5E00F813C8 /* GifTabBar.m */,
+				D59067A4229E7C5E00F813C8 /* GifTabBarView.h */,
+				D59067AB229E7C5E00F813C8 /* GifTabBarView.m */,
+				D59067A0229E7C5E00F813C8 /* GifTabBarItem.h */,
+				D59067A9229E7C5E00F813C8 /* GifTabBarItem.m */,
+				D59067A2229E7C5E00F813C8 /* GifTabImageView.h */,
+				D59067A7229E7C5E00F813C8 /* GifTabImageView.m */,
+				D59067AC229E7C5E00F813C8 /* GifTabTapGestureRecognizer.h */,
+				D59067A3229E7C5E00F813C8 /* GifTabTapGestureRecognizer.m */,
+				D59067A8229E7C5E00F813C8 /* GifTabBarController.h */,
+				D59067A1229E7C5E00F813C8 /* GifTabBarController.m */,
+				D590679E229E7C5E00F813C8 /* UITabBar+FrameOffset.h */,
+				D59067A6229E7C5E00F813C8 /* UITabBar+FrameOffset.m */,
+				D59067AA229E7C5E00F813C8 /* GifTabBarHeader.h */,
+			);
+			path = GifTabBarController;
+			sourceTree = "<group>";
+		};
+		D59067AD229E7C5E00F813C8 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				D59067AE229E7C5E00F813C8 /* FLAnimatedImage.m */,
+				D59067AF229E7C5E00F813C8 /* FLAnimatedImageView.m */,
+				D59067B0229E7C5E00F813C8 /* FLAnimatedImage.h */,
+				D59067B1229E7C5E00F813C8 /* FLAnimatedImageView.h */,
+			);
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		D59067B2229E7C5E00F813C8 /* GifResource */ = {
+			isa = PBXGroup;
+			children = (
+				D59067ED229E824300F813C8 /* tabbar_find_normal@2x.png */,
+				D59067EC229E824300F813C8 /* tabbar_find_normal@3x.png */,
+				D59067F0229E824D00F813C8 /* tabbar_find_select@2x.png */,
+				D59067F1229E824D00F813C8 /* tabbar_find_select@3x.png */,
+				D59067E9229E816D00F813C8 /* tabbar_mine_normal@2x.png */,
+				D59067E8229E816C00F813C8 /* tabbar_mine_normal@3x.png */,
+				D59067E5229E815B00F813C8 /* tabbar_mine_select@2x.png */,
+				D59067E4229E815A00F813C8 /* tabbar_mine_select@3x.png */,
+				D59067E0229E814D00F813C8 /* tabbar_transaction_select@2x.png */,
+				D59067E1229E814D00F813C8 /* tabbar_transaction_select@3x.png */,
+				D59067DC229E814200F813C8 /* tabbar_transaction_normal@2x.png */,
+				D59067DD229E814200F813C8 /* tabbar_transaction_normal@3x.png */,
+				D59067D9229E813600F813C8 /* tabbar_overview_select@2x.png */,
+				D59067D8229E813600F813C8 /* tabbar_overview_select@3x.png */,
+				D59067D4229E812500F813C8 /* tabbar_overview_normal@2x.png */,
+				D59067D5229E812500F813C8 /* tabbar_overview_normal@3x.png */,
+				D59067B3229E7C5E00F813C8 /* btn_fx.gif */,
+				D59067B4229E7C5E00F813C8 /* btn_mine.gif */,
+				D59067B5229E7C5E00F813C8 /* btn_transfer.gif */,
+				D59067B6229E7C5E00F813C8 /* btn_overview.gif */,
+			);
+			path = GifResource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5906766229E7C4400F813C8 /* GifTabbarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5906793229E7C4A00F813C8 /* Build configuration list for PBXNativeTarget "GifTabbarController" */;
+			buildPhases = (
+				82CE59459038043BA9D29B63 /* [CP] Check Pods Manifest.lock */,
+				D5906763229E7C4400F813C8 /* Sources */,
+				D5906764229E7C4400F813C8 /* Frameworks */,
+				D5906765229E7C4400F813C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GifTabbarController;
+			productName = GifTabbarController;
+			productReference = D5906767229E7C4400F813C8 /* GifTabbarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D590677E229E7C4900F813C8 /* GifTabbarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5906796229E7C4A00F813C8 /* Build configuration list for PBXNativeTarget "GifTabbarControllerTests" */;
+			buildPhases = (
+				D590677B229E7C4900F813C8 /* Sources */,
+				D590677C229E7C4900F813C8 /* Frameworks */,
+				D590677D229E7C4900F813C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5906781229E7C4900F813C8 /* PBXTargetDependency */,
+			);
+			name = GifTabbarControllerTests;
+			productName = GifTabbarControllerTests;
+			productReference = D590677F229E7C4900F813C8 /* GifTabbarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5906789229E7C4900F813C8 /* GifTabbarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5906799229E7C4A00F813C8 /* Build configuration list for PBXNativeTarget "GifTabbarControllerUITests" */;
+			buildPhases = (
+				D5906786229E7C4900F813C8 /* Sources */,
+				D5906787229E7C4900F813C8 /* Frameworks */,
+				D5906788229E7C4900F813C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D590678C229E7C4A00F813C8 /* PBXTargetDependency */,
+			);
+			name = GifTabbarControllerUITests;
+			productName = GifTabbarControllerUITests;
+			productReference = D590678A229E7C4A00F813C8 /* GifTabbarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D590675F229E7C4400F813C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lyp;
+				TargetAttributes = {
+					D5906766229E7C4400F813C8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D590677E229E7C4900F813C8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D5906766229E7C4400F813C8;
+					};
+					D5906789229E7C4900F813C8 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D5906766229E7C4400F813C8;
+					};
+				};
+			};
+			buildConfigurationList = D5906762229E7C4400F813C8 /* Build configuration list for PBXProject "GifTabbarController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D590675E229E7C4400F813C8;
+			productRefGroup = D5906768229E7C4400F813C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5906766229E7C4400F813C8 /* GifTabbarController */,
+				D590677E229E7C4900F813C8 /* GifTabbarControllerTests */,
+				D5906789229E7C4900F813C8 /* GifTabbarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5906765229E7C4400F813C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59067DA229E813600F813C8 /* tabbar_overview_select@3x.png in Resources */,
+				D5906777229E7C4900F813C8 /* LaunchScreen.storyboard in Resources */,
+				D59067F3229E824D00F813C8 /* tabbar_find_select@3x.png in Resources */,
+				D5906774229E7C4900F813C8 /* Assets.xcassets in Resources */,
+				D59067EB229E816D00F813C8 /* tabbar_mine_normal@2x.png in Resources */,
+				D59067D6229E812500F813C8 /* tabbar_overview_normal@2x.png in Resources */,
+				D59067EA229E816D00F813C8 /* tabbar_mine_normal@3x.png in Resources */,
+				D59067D7229E812500F813C8 /* tabbar_overview_normal@3x.png in Resources */,
+				D59067E3229E814D00F813C8 /* tabbar_transaction_select@3x.png in Resources */,
+				D59067EF229E824300F813C8 /* tabbar_find_normal@2x.png in Resources */,
+				D59067EE229E824300F813C8 /* tabbar_find_normal@3x.png in Resources */,
+				D59067C2229E7C5E00F813C8 /* btn_transfer.gif in Resources */,
+				D59067E6229E815B00F813C8 /* tabbar_mine_select@3x.png in Resources */,
+				D59067C3229E7C5E00F813C8 /* btn_overview.gif in Resources */,
+				D59067C1229E7C5E00F813C8 /* btn_mine.gif in Resources */,
+				D5906772229E7C4400F813C8 /* Main.storyboard in Resources */,
+				D59067E7229E815B00F813C8 /* tabbar_mine_select@2x.png in Resources */,
+				D59067DB229E813600F813C8 /* tabbar_overview_select@2x.png in Resources */,
+				D59067E2229E814D00F813C8 /* tabbar_transaction_select@2x.png in Resources */,
+				D59067C0229E7C5E00F813C8 /* btn_fx.gif in Resources */,
+				D59067F2229E824D00F813C8 /* tabbar_find_select@2x.png in Resources */,
+				D59067DE229E814200F813C8 /* tabbar_transaction_normal@2x.png in Resources */,
+				D59067DF229E814200F813C8 /* tabbar_transaction_normal@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D590677D229E7C4900F813C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5906788229E7C4900F813C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82CE59459038043BA9D29B63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GifTabbarController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5906763229E7C4400F813C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59067CC229E7D3300F813C8 /* SecondViewController.m in Sources */,
+				D59067B9229E7C5E00F813C8 /* GifTabBar.m in Sources */,
+				D59067BE229E7C5E00F813C8 /* FLAnimatedImage.m in Sources */,
+				D59067BC229E7C5E00F813C8 /* GifTabBarItem.m in Sources */,
+				D590676F229E7C4400F813C8 /* ViewController.m in Sources */,
+				D590677A229E7C4900F813C8 /* main.m in Sources */,
+				D59067B8229E7C5E00F813C8 /* GifTabTapGestureRecognizer.m in Sources */,
+				D59067B7229E7C5E00F813C8 /* GifTabBarController.m in Sources */,
+				D590676C229E7C4400F813C8 /* AppDelegate.m in Sources */,
+				D59067BA229E7C5E00F813C8 /* UITabBar+FrameOffset.m in Sources */,
+				D59067CF229E7D3E00F813C8 /* ThirdViewController.m in Sources */,
+				D59067C9229E7D0400F813C8 /* FirstViewController.m in Sources */,
+				D59067C6229E7CEC00F813C8 /* WLTRootManager.m in Sources */,
+				D59067BB229E7C5E00F813C8 /* GifTabImageView.m in Sources */,
+				D59067D2229E7E7100F813C8 /* WLTNavigationBar.m in Sources */,
+				D59067BD229E7C5E00F813C8 /* GifTabBarView.m in Sources */,
+				D59067BF229E7C5E00F813C8 /* FLAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D590677B229E7C4900F813C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5906784229E7C4900F813C8 /* GifTabbarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5906786229E7C4900F813C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D590678F229E7C4A00F813C8 /* GifTabbarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5906781229E7C4900F813C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5906766229E7C4400F813C8 /* GifTabbarController */;
+			targetProxy = D5906780229E7C4900F813C8 /* PBXContainerItemProxy */;
+		};
+		D590678C229E7C4A00F813C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5906766229E7C4400F813C8 /* GifTabbarController */;
+			targetProxy = D590678B229E7C4A00F813C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5906770229E7C4400F813C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5906771229E7C4400F813C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5906775229E7C4900F813C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5906776229E7C4900F813C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5906791229E7C4A00F813C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5906792229E7C4A00F813C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5906794229E7C4A00F813C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A708086209E4E80BBAA0EC2 /* Pods-GifTabbarController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyp.GifTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5906795229E7C4A00F813C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24A0C750344E1A3FCAEFEA9 /* Pods-GifTabbarController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifTabbarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyp.GifTabbarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5906797229E7C4A00F813C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyp.GifTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifTabbarController.app/GifTabbarController";
+			};
+			name = Debug;
+		};
+		D5906798229E7C4A00F813C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifTabbarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyp.GifTabbarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GifTabbarController.app/GifTabbarController";
+			};
+			name = Release;
+		};
+		D590679A229E7C4A00F813C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyp.GifTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GifTabbarController;
+			};
+			name = Debug;
+		};
+		D590679B229E7C4A00F813C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GifTabbarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyp.GifTabbarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GifTabbarController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5906762229E7C4400F813C8 /* Build configuration list for PBXProject "GifTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5906791229E7C4A00F813C8 /* Debug */,
+				D5906792229E7C4A00F813C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5906793229E7C4A00F813C8 /* Build configuration list for PBXNativeTarget "GifTabbarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5906794229E7C4A00F813C8 /* Debug */,
+				D5906795229E7C4A00F813C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5906796229E7C4A00F813C8 /* Build configuration list for PBXNativeTarget "GifTabbarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5906797229E7C4A00F813C8 /* Debug */,
+				D5906798229E7C4A00F813C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5906799229E7C4A00F813C8 /* Build configuration list for PBXNativeTarget "GifTabbarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D590679A229E7C4A00F813C8 /* Debug */,
+				D590679B229E7C4A00F813C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D590675F229E7C4400F813C8 /* Project object */;
+}
