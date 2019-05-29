@@ -4,6 +4,7 @@ gifTabbar
 接入简单，低耦合
 
 + (GifTabBarController *)rootViewController {
+
     UIViewController *first = [[FirstViewController alloc] init];
     SecondViewController *third = [[SecondViewController alloc] init];
     ThirdViewController *fourth = [[ThirdViewController alloc] init];
