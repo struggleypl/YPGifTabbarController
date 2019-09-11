@@ -1,8 +1,10 @@
 # YPGifTabbarController
 gifTabbar
-支持git图片
+支持gif图片
 接入简单，低耦合
 
+//使用
+```
 + (GifTabBarController *)rootViewController {
     UIViewController *first = [[FirstViewController alloc] init];
     SecondViewController *third = [[SecondViewController alloc] init];
@@ -27,3 +29,5 @@ gifTabbar
     [WLTRootManager manager].tabbarController = tab;
     return tab;
 }
+```
+
